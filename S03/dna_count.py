@@ -19,3 +19,4 @@ DNA = input("Enter a DNA sequence: ")
 print("Total length: ", len(DNA))
 A, C, T, G = count_DNA(DNA)
 print(" A:", A, " C:", C, " T:", T, " G:", G)
+
