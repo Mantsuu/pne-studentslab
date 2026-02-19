@@ -14,12 +14,5 @@ for sequence in lines:
     sequence = sequence.strip()
     total_n += len(sequence)
 
-    for base in sequence:
-        if base in bases:
-            bases[base] += 1
-print("Total number of bases: ", total_n)
-
-for base, count in bases.items():
-    print(f'¨{base}: {count}')
 
 
