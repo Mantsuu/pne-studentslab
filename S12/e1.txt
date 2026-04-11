@@ -1,0 +1,13 @@
+http://127.0.0.1:8080/hello
+The request line is: GET / hello HTTP/1.1
+The resource is : /hello
+
+http://127.0.0.1:8080/file.html
+The request line is: GET / file.html HTTP/1.1
+The resource is : /file.html
+
+http://127.0.0.1:8080/hi/there?name=virus&type=corona
+The request line is: GET / hi/there?name=virus&type=corona HTTP/1.1
+The resource is : /hi/there?name=virus&type=corona
+
+http://127.0.0.1:8080/dna/u5
