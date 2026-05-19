@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <title>KARYOTYPE</title>
+      </head>
+      <body style="background-color: lightgreen;">
+       <p>The names of the chromosomes are: </p>
+       <ul>
+       {% for chromo in CHROMOSOMES %}
+           <li>{{ chromo }}</li>
+       {% endfor %}
+       </ul>
+       <a href="/">Main Page</a>
+      </body>
+  </html>
