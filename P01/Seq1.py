@@ -66,3 +66,4 @@ class Seq:
                 seq_lines.append(line.strip())
         sequence = ''.join(seq_lines)
         self.strbases = sequence
+
